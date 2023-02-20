@@ -110,7 +110,7 @@ Below is an example of a bar chart that fits exactly into 300px width and the de
 
 ## Width and Height of Multi-View Displays
 
-The width and height of multi-view displays including [concatenated](concat.html), [faceted](facet.html), and [repeated](repeat.html) are determined based on the size of the composed unit and layered views. To adjust the size of multi-view displays, you can set the `width` and `height` properties of the inner unit and layered views.
+The width and height of multi-view displays including [concatenated](concat.html), [faceted](facet.html), and [repeated](repeat.html) are determined based on the size of the composed unit and layered views. To adjust the size of multi-view displays, you can set the `width` and `height` properties of the inner unit and layered views, or use the config to set the [default width and height](#default-width-and-height) for all views.
 
 For example, you can adjust `width` and `height` of the inner single view specification to adjust the size of a faceted plot.
 
